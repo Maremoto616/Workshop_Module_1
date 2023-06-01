@@ -3,6 +3,6 @@
 def sum():
     a = input("Indica primer número para sumar: ")
     b = input("Indica segundo número para sumar: ")
-    print (f"El resultado es: {float(a) + float(b)}")
+    print (f"El resultado es: {int(a) + int(b)}")
 
 sum()
