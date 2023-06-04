@@ -1,6 +1,6 @@
 # Create a Python function called reverse_string that takes a string as input and returns the reversed string.
 
-string = input("Escriba palabra: ")
+string = input("Escriba una palabra: ")
 
 def reverse_string(string):
     reverse_string = string[::-1] #se utiliza la sintaxis de rebanado (slicing) con [::-1] para obtener una versión invertida de la cadena

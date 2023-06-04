@@ -1,0 +1,5 @@
+hola hola hola 
+
+este es el archivo que quiero leer, releer y leer para contar y contar palabras.
+
+bye bye bye
