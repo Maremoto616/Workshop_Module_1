@@ -14,6 +14,7 @@ class PalindromeTest(unittest.TestCase):
         self.assertTrue(is_palindrome("somos o no somos"))
         self.assertFalse(is_palindrome("palindrome"))
         self.assertTrue(is_palindrome("Se laminan animales"))
+        self.assertFalse(is_palindrome(258))
 
     def test_input_palindrome(self):
         self.assertTrue(is_palindrome(input("Ingrese una palabra: ")))
